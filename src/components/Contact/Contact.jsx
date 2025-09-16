@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_9u1h5rg",  //EmailJS Service ID
+        "template_7egzlv8",  // EmailJS Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "J3G9WJmO2Nd1nls_3"  //EmailJS Public Key
       )
       .then(
         () => {
@@ -98,7 +98,7 @@ const Contact = () => {
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
-          
+
           {/* Send Button */}
           <button
             type="submit"
